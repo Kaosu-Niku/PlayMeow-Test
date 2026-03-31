@@ -35,4 +35,12 @@ public class UI_Manager : MonoBehaviour
         loginPanel.SetActive(false);
         mainPanel.SetActive(true);
     }
+
+    //開啟登入介面
+    public void OnOpenLogin()
+    {
+        //關閉遊戲主介面，開啟登入介面
+        mainPanel.SetActive(false);
+        loginPanel.SetActive(true);        
+    }
 }
